@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Tecnología para el transporte" />
+    <meta name="author" content="Transcontrol" />
+
+    <title>Transcontrol</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/styles-custom.css" rel="stylesheet">
+	
+	 <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+	<!-- circle Menu -->
+	<link rel="stylesheet" href="css/circle-menu.min.css">
+	
+	<script type="text/javascript" src="http://190.143.101.59/scripts/customer/AZTranscontrol.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Transcontrol</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+					<li>
+                        <a class="page-scroll" href="#about">Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Tecnología</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">Noticias</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#pricing">Aplicación móvil</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+	<header id="page-top">
+		<div class="wrap-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-1 col-sm-1 col-xs-1"></div>
+						<div class="new-login col-md-8 col-sm-8 col-xs-10">
+							<img src="images/logo_400.png" alt="">
+							<form autocomplete="off">	
+								<div class="field-form">
+									<label>Canal</label>
+									<select id="ddl_Canal">
+										<option value="190.143.101.58:3000">Principal</option>
+										<option value="190.24.175.109:3000">Alterno</option>
+									</select>
+								</div>
+								<div class="field-form">
+									<label>Usuario</label>
+									<input type="text" id="azx1" maxlength="20" autocomplete="off">
+									<span id="vldazx1" class="field-required">&nbsp;</span>
+								</div>
+								<div class="field-form">
+									<label>Contraseña</label>
+									<input type="password" id="azy1" maxlength="20" autocomplete="off">
+									<span id="vldazy1" class="field-required">&nbsp;</span>
+								</div>
+								<div class="button-container">
+									<button onclick="SelectSubmitForm(this)">Ingresar</button>
+									<!--<a href="../track/seguridad/login.jsp" target="_blank">Plataforma antigua</a>-->
+								</div>
+							</form>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+    </header>
+	<!-- Header -->
+	<div id="c-circle-nav" class="c-circle-nav">
+	  <button id="c-circle-nav__toggle" class="c-circle-nav__toggle">
+		<span>Toggle</span>
+	  </button>
+	  <ul class="c-circle-nav__items">
+		<li class="c-circle-nav__item">
+		  <a href="#" class="c-circle-nav__link">
+			<center><img src="images/House.png" /></center>
+		  </a>
+		</li>
+		<li class="c-circle-nav__item">
+		  <a href="#" class="c-circle-nav__link">
+			<center><img src="images/Facebook.png" /></center>
+		  </a>
+		</li>
+		<li class="c-circle-nav__item">
+		  <a href="#" class="c-circle-nav__link">
+			<center><img src="images/Pinterest.png" /></center>
+		  </a>
+		</li>
+		<li class="c-circle-nav__item">
+		  <a href="#" class="c-circle-nav__link">
+			<center><img src="images/Twitter.png" /></center>
+		  </a>
+		</li>
+		<li class="c-circle-nav__item">
+		  <a href="#" class="c-circle-nav__link">
+			<center><img src="images/Google.png" /></center>
+		  </a>
+		</li>
+	  </ul>
+	</div>
+	<!-- circle-nav -->
+	
+	<!-- /////////////////////////////////////////Content -->
+	<div id="page-content" class="index-page">
+		<section class="box-content" id="about">
+			<div class="container">
+				<div class="row center">
+					<div class="col-md-6">
+						<div class="wrap-img">
+							<img src="images/about.png">
+						</div>
+						<ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+							<li><a href="#"><i class="fa fa-google"></i></a>
+                            </li>
+                        </ul>
+					</div>
+					<div class="col-md-6">
+						<div class="row heading">
+							<h2>NOSOTROS</h2>
+		                    <hr class="line02">
+						</div>
+						<div class="row">
+							<p>Transcontrol S.A.S. es una empresa dedicada a comercializar, desarrollar, innovar y dar soluciones puntuales con tecnología de punta en soluciones logísticas de transporte basadas en GPS, desarrollo de software y creaciones tecnológicas corporativas. Nuestra empresa cuenta con personal altamente calificado y con experiencia en la implementación de soluciones tecnológicas basadas en telecomunicaciones y sistemas GPS. La experiencia de nuestro personal, nuestros desarrollos de software y la tecnología avanzada se han fusionado dando como resultado un novedoso, interesante y funcional software integral para flotas de vehículos donde de manera sencilla e intuitiva tendrá el control de gestión sobre la flota optimizando los recursos y disminuyendo costos.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!-- ////////////Services -->
+		<section class="box-content box-style" id="services">
+			<div class="container">
+				<div class="row heading">
+					 <div class="col-lg-12">
+	                    <h2>Servicios</h2>
+						<hr class="line01">
+	                </div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 services-item">
+						<div class="wrap-img">
+							<img src="images/satelital.png" />
+						</div>
+						<h3 class="services-heading">Rastreo Satelital</h3>
+						<p>Nuestras unidades satelitales de alta tecnología nos permiten conocer siempre la ubicación exacta de sus vehiculos, además de múltiples eventos que nos dan información constante sobre variados eventos de su vehiculo, asi siempre tendremos el control sobre cada aspecto y sobre toda su información.</p>
+					</div>
+					<div class="col-sm-4 services-item">
+						<div class="wrap-img">
+							<img src="images/monitoring.png" />
+						</div>
+						<h3 class="services-heading">Monitoreo 24H</h3>
+						<p>Monitoreamos sus vehiculos personales o de carga en tiempo real, combinada con multiple información como velocidad, estado del motor, consumo de combustible y muchos otros eventos, siempre podrás estar seguro, nosotros monitoreamos tus vehiculos.</p>
+					</div>
+					<div class="col-sm-4 services-item">
+						<div class="wrap-img">
+							<img src="images/paths.png" />
+						</div>
+						<h3 class="services-heading">Rutas</h3>
+						<p>Gestionamos y vigilamos múltiples factores de cumplimiento de rutas, que nos permite monitorear y reportar la efectividad de los desplazamientos realizados en las diferentes rutas a nivel nacional.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- ////////////Portfolio -->
+		<section class="box-content" id="portfolio">
+			<div class="container">
+				<div class="row heading">
+					 <div class="col-lg-12">
+	                    <h2>Tecnología</h2>
+						<hr class="line02">
+	                </div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-eye fa-3x"></i>
+								</div>
+							</div>
+							<img src="images/teltonik.png" class="img-responsive" alt="">
+						</a>
+						<div class="portfolio-caption center">
+							<h4>Teltonika FM5300</h4>
+							<p class="text-muted">FM5300 es terminal avanzado con GLONASS / GPS de posicionamiento y conectividad GSM, que es capaz de obtener coordenadas y demás datos y transferirlos a través de la red GSM.</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-eye fa-3x"></i>
+								</div>
+							</div>
+							<img src="images/teltonik2.png" class="img-responsive" alt="">
+						</a>
+						<div class="portfolio-caption center">
+							<h4>Teltonika FM1120</h4>
+							<p class="text-muted">Es el terminal mas pequeño con conectividad GSM y GPS que le permite obtener ubicaciones y captura de datos para ser transmitidos dentro de la red GSM.</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-eye fa-3x"></i>
+								</div>
+							</div>
+							<img src="images/teltonik3.png" class="img-responsive" alt="">
+						</a>
+						<div class="portfolio-caption center">
+							<h4>Teltonika FM1202</h4>
+							<p class="text-muted">FM1202 es un terminal con GPS y conectividad GSM, cuenta con opción de batería recargable en el interior y el controlador especial para la administración de energía.</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 portfolio-item">
+						<a href="#" class="portfolio-link" data-toggle="modal">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-eye fa-3x"></i>
+								</div>
+							</div>
+							<img src="images/enfora.png" class="img-responsive" alt="">
+						</a>
+						<div class="portfolio-caption center">
+							<h4>Enfora <br>2438</h4>
+							<p class="text-muted">Es una unidad móvil de localización con sistema GSM/GPRS/GPS, ligero, discreto y de reducido tamaño; muy útil para el control de unidades, tanto a pequeñas flotillas como grandes transnacionales.</p>
+						</div>
+					</div>
+                </div>
+			</div>
+		</section>
+
+		<section class="box-content box-style" id="news">
+			<div class="container">
+				<div class="row heading">
+					<div class="col-lg-12">	
+	                    <h2>Noticias</h2>
+	                    <hr class="line01">
+	                </div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row news-item-1">
+							<div class="col-md-6">
+								<a target="_blank" href="http://www.enter.co/especiales/claro-negocios/asi-usan-las-empresas-el-gps-de-tu-celular-para-venderte-productos/"><img src="http://contenidos.enter.co/custom/uploads/2016/09/GPSF.jpg" /></a>
+							</div>
+							<div class="col-md-6">
+								<h3><a href="#">Así usan las empresas el GPS para hacer ofertas más precisas</a></h3>
+								<div class="info">By <a href="http://www.enter.co/especiales/claro-negocios/asi-usan-las-empresas-el-gps-de-tu-celular-para-venderte-productos/" target="_blank">Enter.co</a> Septiembre 26, 2016</div>
+								<p>Los smartphones popularizaron el GPS de ‘uso personal’. A pesar de que esta tecnología fue desarrollada hace varios años por el Departamento de Defensa de los Estados Unidos (y los elementos que contribuyeron a su creación datan de 1960), pasaron varias décadas antes de que esta herramienta fuera totalmente pública.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- ////////////Pricing -->
+		<section class="box-content" id="pricing">
+			<div class="container">
+				<div class="row heading">
+					 <div class="col-lg-12">	
+	                    <h2>Aplicación móvil</h2>
+	                    <hr class="line02">
+	                </div>
+				</div>
+				<div class="row center">
+					<p>En nuestra aplicación móvil puedes tener un fácil acceso a la información de todos tus vehiculos, vigilarlos, recibir alarmas, gestionar y controlar toda su información, puedes descargarla desde este <a class="simple-link" target="_blank" href="https://play.google.com/store/apps/details?id=co.gpsmobile.gpsport&hl=es">enlace</a>.</p>
+					<img src="images/appmovil.png" class="img-responsive center" alt="">
+				</div>
+			</div>
+		</section>	
+		
+		<section class="box-content box-style" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="row heading">
+							<h2>Contactenos</h2>
+							<hr class="line01">
+						</div>
+					</div>
+					<div class="col-md-6 contact-item">
+						<div class="row">
+							<div class="col-sm-12">
+								<iframe src="http://maps.google.com/maps?q=6.252523+-75.589624&z=15&output=embed" width="95%" height="250px" frameborder="0" style="border:0"></iframe>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 contact-item">
+						<form name="form1" id="ff" method="post" action="contact.php">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Tu nombre*" name="name" id="name" required data-validation-required-message="Por favor ingresa tú teléfono">
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Tu correo electrónico*" name="email" id="email" required data-validation-required-message="Por favor ingresa tú correo electrónico">
+									</div>
+									<div class="form-group">
+										<input type="tel" class="form-control" placeholder="Tú teléfono*" name="phone" id="phone" required data-validation-required-message="Por favor ingresa tú teléfono.">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<textarea class="form-control" placeholder="Tú mensaje*" name="message" id="message" required data-validation-required-message="Por favor ingresa tú mensaje."></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<div id="success"></div>
+									<button type="submit" class="btn btn-l">Enviar mensaje</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<footer>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">Copyright &copy; Transcontrol S.A.S.</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer -->
+
+
+
+<!-- jQuery -->
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+<script src="js/circleMenu.min.js"></script>
+
+</body>
+</html>

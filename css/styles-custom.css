@@ -1,0 +1,84 @@
+.new-login{
+	background-color: rgba(10, 10, 10, 0.38);
+    border-radius: 10px;
+    margin: 120px auto 60px;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+header img {
+    margin: 5px 0px 15px;
+	display: block;
+}
+
+.new-login form{
+	width: 90%;
+    margin: auto;
+}
+
+.new-login label{
+	width: 30%;
+	font-weight: normal;
+}
+
+.new-login input,.new-login select{
+	width: 65%;
+    height: 28px;
+    background-color: #BBB;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.field-form{
+	margin-top: 5px;
+}
+
+.field-required{
+	color: Red;
+    font: 14px Verdana;
+    padding-left: 2px;
+    position: absolute;
+}
+
+.button-container{
+	width: 50%;
+    margin: 15px auto 5px;
+    display: block;
+    text-align: center;
+}
+
+.button-container button{
+	display: block;
+    width: 100%;
+    border: 0px;
+    background-color: #fed136;
+    min-height: 28px;
+    color: #000;
+}
+
+.button-container button:hover{
+	background-color: #be6020;
+    color: #000;
+}
+
+.button-container a{
+    color: #fed136;
+}
+
+.button-container a:hover{
+	color: #be6020;
+}
+
+.box-content {
+    padding: 50px 0 !important;
+}
+
+#services .services-item{
+	margin-bottom:0px;
+}
+
+.simple-link{
+	color: #be6020;
+}
